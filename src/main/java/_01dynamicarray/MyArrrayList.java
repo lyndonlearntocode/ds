@@ -74,6 +74,7 @@ public class MyArrrayList<T> {
     }
 
     public void clear() {
+        data = (T[]) new Object[defaultCapacity];
         size = 0;
     }
 
